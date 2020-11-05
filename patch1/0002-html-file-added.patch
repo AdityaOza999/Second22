@@ -1,0 +1,49 @@
+From d1bb0965e1713bce128fc547ced21d7c0954e90f Mon Sep 17 00:00:00 2001
+From: AdityaOza999 <aditya.oza@teksun.com>
+Date: Thu, 5 Nov 2020 13:06:48 +0530
+Subject: [PATCH 2/3] html file added
+
+---
+ index1.html                        |  2 ++
+ patch/0001-second-line-added.patch | 20 ++++++++++++++++++++
+ 2 files changed, 22 insertions(+)
+ create mode 100644 index1.html
+ create mode 100644 patch/0001-second-line-added.patch
+
+diff --git a/index1.html b/index1.html
+new file mode 100644
+index 0000000..8b42569
+--- /dev/null
++++ b/index1.html
+@@ -0,0 +1,2 @@
++
++<h1> Hello World - matser1 </h1>
+diff --git a/patch/0001-second-line-added.patch b/patch/0001-second-line-added.patch
+new file mode 100644
+index 0000000..777bf0b
+--- /dev/null
++++ b/patch/0001-second-line-added.patch
+@@ -0,0 +1,20 @@
++From 3547dade4bc7401af329aab1472facdbe709e970 Mon Sep 17 00:00:00 2001
++From: AdityaOza999 <aditya.oza@teksun.com>
++Date: Thu, 5 Nov 2020 11:52:29 +0530
++Subject: [PATCH] second line added
++
++---
++ hellowrold.txt | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/hellowrold.txt b/hellowrold.txt
++index 9878e5e..cfe61c2 100644
++--- a/hellowrold.txt
+++++ b/hellowrold.txt
++@@ -1,2 +1,3 @@
++ 
++ this is new file
+++this is new line commit 2***************
++-- 
++2.25.1
++
+-- 
+2.25.1
+
